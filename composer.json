@@ -1,0 +1,30 @@
+{
+  "name": "wgqi1126/laravel-tools",
+  "description": "A tools set for Laravel.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Echo Wang",
+      "email": "wgqi1126@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "laravel/framework": "5.7.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Wgqi1126\\LaravelTools\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Wgqi1126\\LaravelTools\\Providers\\LaravelToolsServiceProvider"
+      ]
+    }
+  }
+}
