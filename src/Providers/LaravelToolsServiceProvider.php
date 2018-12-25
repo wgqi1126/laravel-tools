@@ -39,6 +39,6 @@ class LaravelToolsServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return array('ltools:reset-db');
+        return ['ltools:reset-db'];
     }
 }
