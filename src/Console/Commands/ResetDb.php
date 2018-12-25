@@ -1,8 +1,8 @@
 <?php
 
-namespace Wgqi1126\LaravelTools\Console\Commands\Dev;
+namespace Wgqi1126\LaravelTools\Console\Commands;
 
-class ResetDb extends BaseDevCommand
+class ResetDb extends BaseCommand
 {
     /**
      * The name and signature of the console command.
