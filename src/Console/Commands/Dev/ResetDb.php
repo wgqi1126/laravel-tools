@@ -9,7 +9,7 @@ class ResetDb extends BaseDevCommand
      *
      * @var string
      */
-    protected $signature = 'ltools:dev:reset-db';
+    protected $signature = 'ltools:reset-db';
 
     /**
      * The console command description.

@@ -31,4 +31,14 @@ class LaravelToolsServiceProvider extends ServiceProvider
     {
         $this->commands($this->commands);
     }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array
+     */
+    public function provides()
+    {
+        return array('ltools:reset-db');
+    }
 }
