@@ -17,7 +17,7 @@ composer require wgqi1126/laravel-tools
 
 ## Commands
 
-* `ltools:dev:reset-db`  
+* `ltools:reset-db`  
 重置数据库。执行 `migrate:reset` 删除所有表，然后执行 `migrate` 重新创建表，最后执行 `db:seed` 生成数据。
 
 ## TODOs
