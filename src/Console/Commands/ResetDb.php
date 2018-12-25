@@ -2,7 +2,7 @@
 
 namespace Wgqi1126\LaravelTools\Console\Commands;
 
-class ResetDb extends BaseCommand
+class ResetDb extends BaseLocalCommand
 {
     /**
      * The name and signature of the console command.
