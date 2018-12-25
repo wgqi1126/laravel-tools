@@ -3,7 +3,7 @@
 namespace Wgqi1126\LaravelTools\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Wgqi1126\LaravelTools\Console\Commands\Dev\ResetDb;
+use Wgqi1126\LaravelTools\Console\Commands\ResetDb;
 
 class LaravelToolsServiceProvider extends ServiceProvider
 {
